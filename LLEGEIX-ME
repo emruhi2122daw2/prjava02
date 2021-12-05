@@ -1,0 +1,24 @@
+1. git branch branca00
+   git checkout branca00
+   git status
+
+5. git checkout main
+   git status
+   git log main
+   git log main--branca00
+ 
+6. No el podem veure ja que estem en la branca main mentre que el commit es va fer en la branca00.
+
+7. git checkout branca00
+   Es veuen els canvis ja que s'han editat desde branca00
+
+10b. git merge branca00
+
+12. git push
+    git status 
+ 
+12c. Només s'ha actualitzat la branca main ja que el push s'ha efectuat des main i nno hem especificat que agafi altres branques. 
+
+14a. git push --set-upstream origin branca01
+
+14c. Es troba a 1 commit de distància. 
